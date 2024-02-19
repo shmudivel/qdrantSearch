@@ -23,8 +23,23 @@ def get_vector_store():
     return vector_store 
 
 def main():
-    st.set_page_config(page_title="Ask Qdrant")
-    st.header("Ask your remote database")
+
+    st.set_page_config(page_title="Ask Qd")
+    st.header("Ask your documents")
+    st.subheader("Main features:")
+    st.text(" - Ask questions about your douments without need to reupload them")
+    st.text(" - Find the relavant info from the docs without specific words (technical terms, etc.)")
+    st.text(" - Ask complex questions and get the answer from different parts of the document")
+    st.subheader("Upcoming features:")
+    st.text("Show the table and graphs in the answer")
+    st.text("Show the chapter and subchapter of the answer")
+    st.text("Show the drowings in the answer")
+    st.subheader("Tips:")
+    st.text("1. Ask questions related to the content of the doc")
+    st.text("2. Ask questions in natural language English would be better")
+    st.text("3. The more specific your question the better the answer")
+    st.text("4. If you get an answer that is not relevant, try rephrasing your question")
+    st.text("5. Ask for chapter and subchapter to double check the answer")
 
     # Create vector store
     vector_store = get_vector_store()
