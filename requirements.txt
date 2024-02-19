@@ -29,7 +29,6 @@ grpcio==1.60.1
 grpcio-tools==1.60.1
 h11==0.14.0
 h2==4.1.0
-hnswlib==0.7.0
 hpack==4.0.0
 httpcore==1.0.2
 httptools==0.5.0
@@ -64,13 +63,11 @@ openai==0.28.0
 openapi-schema-pydantic==1.2.4
 overrides==7.3.1
 packaging==23.2
-pandas==2.0.2
 Pillow==9.5.0
 portalocker==2.8.2
 posthog==3.0.1
 protobuf==4.23.2
 pyarrow==12.0.0
-PyAudio==0.2.13
 pycparser==2.21
 pydantic==1.10.8
 pydeck==0.8.1b0
@@ -78,10 +75,8 @@ Pygments==2.15.1
 Pympler==1.0.1
 pypandoc==1.11
 PyPDF2==3.0.1
-pyperclip==1.8.2
 pyrsistent==0.19.3
 python-dateutil==2.8.2
-python-docx==0.8.11
 python-dotenv==1.0.0
 pytz==2023.3
 pytz-deprecation-shim==0.1.0.post0
@@ -116,10 +111,8 @@ tzlocal==4.3
 urllib3==2.0.2
 uvicorn==0.22.0
 uvloop==0.17.0
-validators==0.20.0
 watchfiles==0.19.0
 websockets==11.0.3
-wikipedia==1.4.0
 yarl==1.9.2
 zipp==3.15.0
 zstandard==0.21.0
