@@ -37,7 +37,7 @@ def main():
     )
 
     # Show user input 
-    user_question = st.text_input("Enter your question here")
+    user_question = st.text_input("3207-V0005-1101-0001_EN_Installation_Operations_Maintenance_Manual.pdf")
     if user_question:
         st.write(f"Question: {user_question}")
         answer = qa.run(user_question)
